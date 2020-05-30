@@ -46,10 +46,13 @@ for (i = 0; i < teamMembers.length; i++) {
     tableDataEmail.textContent = `${teamMembers[i].email}`;
     teamInfo.appendChild(tableDataEmail);
 
+    /*let tableDataImage = document.createElement("img");
+    tableDataImage.textContent = `${teamMembers[i].image}`;
+    teamInfo.appendChild(tableDataImage);*/
+
     teamInfo.setAttribute("onclick", `showQuote('${teamMembers[i].quote}')`);
 
-    // teamInfo.appendChild(tableData);
-    // teamInfo.appendChild(tableData);
+
     document.getElementById("table-content").appendChild(teamInfo);
 }
 
@@ -57,3 +60,6 @@ function showQuote(quote) {
 
     document.getElementById("dsp-quote").textContent = quote;
 }
+
+/* to be continued */
+/*immage issues*/

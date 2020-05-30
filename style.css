@@ -217,7 +217,7 @@ h3 {
 
 .c-box h3 {
     color: #537fc5;
-    font-size: 30px;
+    font-size: 20px;
     text-align: left;
     margin: 3rem;
     font-family: 'Lucida Sans', Arial, sans-serif;
@@ -294,6 +294,10 @@ table {
     width: 60%;
     height: 500px;
     margin: 10rem auto;
+    padding-top: 3rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: center;
 }
 
 #dsp-quote {
