@@ -289,6 +289,7 @@ tr {
 .t-page-wrapr {
     width: 100vw;
     height: 100vh;
+    padding: 0;
 }
 
 table {
@@ -304,13 +305,12 @@ table {
 
 #dsp-quote {
     margin: 1rem auto;
-    height: 60vh;
+    height: 80vh;
     width: 50%;
     text-align: center;
     color: rgb(139, 37, 6);
     font-size: 30px;
     font-weight: bold;
-    padding-bottom: 20px;
 }
 
 
@@ -372,7 +372,10 @@ h4 {
     margin-top: 60px;
 }
 
-@media screen and (max-width: 480px) {
+
+/*testing out */
+
+@media screen and (max-width: 500px) {
     body {
         width: 100%;
     }
